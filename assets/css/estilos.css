@@ -1,0 +1,47 @@
+/* marca de agua */
+
+.agua:before {
+  position: fixed;
+  content: '';
+  bottom: 2vh;
+  right: 5vh;
+ /*    vh seria la medida de alto el 100 seria todo */
+  width: 50vh; 
+     /*    vh seria la medida de ancho el 100 seria todo */
+  height:100vh;
+  opacity: 0.2;
+  background-image: url("../svg/cat.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*banner sportada de articulo */
+header.portada
+{
+background-image:url("https://cdn.pixabay.com/photo/2020/02/09/13/08/banner-4833105_960_720.jpg");
+background-position: 50% 50%;
+background-repeat:no-repeat;
+background-size: cover;
+width: 100%;
+height: 50vh;
+
+
+}
+
+/* titulo centrado dentro de la imagen */
+header.portada {
+    position: relative;
+    
+}
+header.portada h2{
+position: absolute;
+top: 40%;
+left: 0;
+width: 100%;
+margin:0;
+padding: 1em 0;
+text-align: center;
+background-color: rgba(0,0,0,0.2);
+color: #ffffff
+    
+}
