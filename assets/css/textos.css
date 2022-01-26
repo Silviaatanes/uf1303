@@ -83,3 +83,25 @@ p.nota{
 p {
     line-height: 1.5em;
 }
+
+/* imagenes validadores */
+/* reglas comunes */
+figure.w3c.ss{
+    background-image: url ('../svg/w3c/css.svg');
+}
+figure.w3c{
+    width: 88px;
+    height: 31px;
+    background-position:  50%50%;
+    background-repeat: : no-repeat;
+    background-size:cover;
+}
+ 
+.pechado,{
+    color:white
+}
+footer {
+color: white;
+background-color: black;
+
+}
