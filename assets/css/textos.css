@@ -86,22 +86,44 @@ p {
 
 /* imagenes validadores */
 /* reglas comunes */
-figure.w3c.ss{
-    background-image: url ('../svg/w3c/css.svg');
+figure.w3c.css {
+    background-image: url('../svg/w3c/css.svg');
+}
+figure.w3c.html5 {
+    background-image: url('../svg/w3c/html5.svg');
+}
+figure.w3c.wcag {
+    background-image: url('../svg/w3c/wcag.svg');
+}
+
 }
 figure.w3c{
     width: 88px;
     height: 31px;
-    background-position:  50%50%;
+    background-position:  50% 50%;
     background-repeat: : no-repeat;
     background-size:cover;
+   
+    
 }
- 
+
+article.position{
+    position:relative;
+}
+
+figure.caja {
+    width: 500px;
+    height: 300px;
+    background-color:yellow;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_960_720.jpg');
+    
+}
+
 .pechado,{
     color:white
 }
-footer {
+/* footer {
 color: white;
 background-color: black;
 
-}
+} */
