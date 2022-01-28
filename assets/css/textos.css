@@ -79,6 +79,72 @@ p.nota {
 
 }
 
+/* estilos para el footer */
+/* fondo color negro */
+body > footer {
+    background-color: black;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* quitar estilos de lista */
+body > footer li {
+    list-style: none;
+}
+
+
+/*convertir li en elementos en linea */
+body > footer li.validator,
+body > footer li.legal {
+    display: inline-block;
+    font-size: small;
+}
+
+/* reducir iconos validadores */
+figure.w3c {
+    width: 5vw;
+    height: 1.76vw;
+    margin:0.5em;
+    width:  2em;
+    height:  0.7em;
+}
+
+/* poner el mismo margen que los figures validadores */
+
+li.legal,
+li.legal a {
+    height: 4em;
+    line-height: 4em;
+}
+/* 
+textos en color blanco */
+body > footer h2,
+body > footer li a,
+body > footer li a span {
+    color: white;
+}
+
+footer section.footer__pie h2 {
+    display: none; }
+
+section.contentinfo a.pattern figure {
+    width: 10vw ;
+    height: 5vw ;
+    background-image: url('../svg/logo.svg');
+    background-position: 50% 50%;
+    background-repeat: : no-repeat;
+    background-size: cover;
+}
+
+section.contentinfo a.pattern {
+    background: tomato;
+    width: 40%;
+}
+div[role="group"] {
+    width: 40%;
+}
+
 
 
 p {
@@ -154,7 +220,8 @@ article.imagen:before {
 }
 
 article.imagen h2 {
-    text-align: relative;
+    position: relative;
+    text-align: center;
     top: 0;
     left: 0;
     color: black;
@@ -162,7 +229,8 @@ article.imagen h2 {
 }
 
 article.imagen p {
-    text-align: relative;
+    position: relative;
+    text-align: center;
     color: black;
     font-weight: bold;
 }
@@ -173,8 +241,4 @@ article.imagen p {
     color: white
 }
 
-/* footer {
-color: white;
-background-color: black;
 
-} */
